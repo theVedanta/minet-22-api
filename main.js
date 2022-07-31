@@ -7,9 +7,13 @@ const PORT = process.env.PORT || 4000;
 const cookieParser = require("cookie-parser");
 const server = require("http").Server(app);
 const socket = require("socket.io");
+const FRONT_END =
+    process.env.NODE_ENV === "dev"
+        ? "http://localhost:3000"
+        : "https://singular-queijadas-ca4faf.netlify.app";
 const io = socket(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: FRONT_END,
         methods: ["GET", "POST"],
     },
 });
