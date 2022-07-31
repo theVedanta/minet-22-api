@@ -1,0 +1,24 @@
+{
+  "name": "minet-22-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/theVedanta/minet-22-api",
+  "author": "Vedanta Somnathe <vedanta1412@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node main",
+    "dev": "nodemon main"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
