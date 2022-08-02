@@ -31,7 +31,7 @@ function synonyms(word){
 			return(["angry","anger", "irate", "annoyed", "cross", "vexed", "furious", "irritated", "engraged", "rage"])
 
 		case "happy":
-			return(["happy", "jolly", "joking", "delighted", "cheerful", "elated", "joyful", "joyous", "glad", "blissful"])
+			return(["happy", "jolly", "joking", "delighted", "cheerful", "elated", "joyful", "joyous", "glad", "blissful", "funny" , "fun"])
 
 		default:
 			break;
